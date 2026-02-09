@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Night theme. -->
+    <style name="Base.Theme.MENTALL" parent="Theme.Material3.Dark.NoActionBar">
+        <!-- Colores principales -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_light</item>
+        <item name="colorOnPrimary">@color/text_primary</item>
+
+        <item name="colorSecondary">@color/secondary_light</item>
+        <item name="colorSecondaryVariant">@color/secondary</item>
+        <item name="colorOnSecondary">@color/text_primary</item>
+
+        <!-- Fondo oscuro -->
+        <item name="android:colorBackground">#1C2A25</item>
+        <item name="colorSurface">@color/card_background_dark</item>
+
+        <!-- Texto -->
+        <item name="colorOnBackground">@color/white</item>
+        <item name="colorOnSurface">@color/white</item>
+
+        <!-- Status bar y navigation bar -->
+        <item name="android:statusBarColor">#1C2A25</item>
+        <item name="android:navigationBarColor">#1C2A25</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Theme.MENTALL" parent="Base.Theme.MENTALL" />
+</resources>

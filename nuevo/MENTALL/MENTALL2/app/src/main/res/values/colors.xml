@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colores principales de MentAll -->
+    <color name="primary">#6EB896</color> <!-- Verde menta principal -->
+    <color name="primary_dark">#5CA080</color> <!-- Verde más oscuro -->
+    <color name="primary_light">#A4D9C2</color> <!-- Verde más claro -->
+
+    <color name="secondary">#89C4DB</color> <!-- Azul cerebro -->
+    <color name="secondary_dark">#6BACC7</color>
+    <color name="secondary_light">#B5DEF0</color>
+
+    <color name="accent">#00D4A6</color> <!-- Verde brillante de las imágenes -->
+
+    <!-- Fondo de la aplicación -->
+    <color name="background_main">#C8E5DA</color> <!-- Verde menta suave del fondo -->
+    <color name="background_light">#E8F5F0</color> <!-- Aún más claro -->
+    <color name="splash_background">#C8E5DA</color>
+
+    <!-- Cards y superficies -->
+    <color name="card_background">#FFFFFF</color>
+    <color name="card_background_dark">#2D4A3E</color>
+
+    <!-- Texto -->
+    <color name="text_primary">#2C3E3C</color> <!-- Texto oscuro -->
+    <color name="text_secondary">#6B7F7C</color> <!-- Texto gris -->
+    <color name="text_hint">#A0B3B0</color>
+    <color name="text_disabled">#C5D3D1</color>
+
+    <!-- Estados de ánimo (mood) -->
+    <color name="mood_very_bad">#FF4D4D</color> <!-- Muy mal -->
+    <color name="mood_bad">#FF944D</color> <!-- Mal -->
+    <color name="mood_normal">#FFD24D</color> <!-- Regular -->
+    <color name="mood_good">#9BE15D</color> <!-- Bien -->
+    <color name="mood_excellent">#00D4A6</color> <!-- Genial -->
+
+    <!-- Estados -->
+    <color name="success">#9BE15D</color>
+    <color name="warning">#FFD24D</color>
+    <color name="error">#FF4D4D</color>
+    <color name="info">#89C4DB</color>
+
+    <!-- Componentes -->
+    <color name="divider">#E0E0E0</color>
+    <color name="border">#D0D0D0</color>
+
+    <!-- Switch y Toggle -->
+    <color name="switch_thumb">@color/primary</color>
+    <color name="switch_track">@color/primary_light</color>
+
+    <!-- Botones -->
+    <color name="button_primary">@color/primary</color>
+    <color name="button_secondary">@color/secondary</color>
+    <color name="button_text_primary">@android:color/white</color>
+
+    <!-- Colores estándar -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00000000</color>
+</resources>

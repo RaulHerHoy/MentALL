@@ -1,0 +1,49 @@
+
+<resources>
+<string name="app_name">MentALL</string>
+
+<!-- Login / Register -->
+<string name="login_title">Iniciar Sesión</string>
+<string name="register_title">Crear Cuenta</string>
+<string name="email">Email</string>
+<string name="password">Contraseña</string>
+<string name="name">Nombre</string>
+<string name="login_button">Iniciar Sesión</string>
+<string name="register_button">Crear Cuenta</string>
+<string name="no_account">¿No tienes cuenta?</string>
+<string name="already_have_account">Ya tengo cuenta</string>
+
+<!-- Bottom Navigation -->
+<string name="nav_home">Inicio</string>
+<string name="nav_register">Registrar</string>
+<string name="nav_activities">Actividades</string>
+<string name="nav_sos">SOS</string>
+<string name="nav_skills">Skills</string>
+
+<!-- Toolbar -->
+<string name="action_theme">Cambiar tema</string>
+<string name="action_profile">Perfil</string>
+
+<!-- Home -->
+<string name="quick_actions">Acciones rápidas</string>
+<string name="register_mood">Registrar emoción</string>
+<string name="view_activities">Ver actividades</string>
+<string name="sos_help">SOS - Ayuda</string>
+<string name="stats_summary">Resumen últimos 7 días</string>
+<string name="recommendations">Recomendaciones para ti</string>
+
+<!-- Mood -->
+<string name="how_feeling">¿Cómo te sientes hoy?</string>
+<string name="very_bad">Muy mal</string>
+<string name="bad">Mal</string>
+<string name="regular">Regular</string>
+<string name="good">Bien</string>
+<string name="great">Genial</string>
+
+<!-- Common -->
+<string name="save">Guardar</string>
+<string name="cancel">Cancelar</string>
+<string name="loading">Cargando...</string>
+<string name="error">Error</string>
+<string name="success">Éxito</string>
+</resources>

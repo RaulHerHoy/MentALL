@@ -1,0 +1,33 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <!--  Permisos necesarios  -->
+    <uses-feature android:name="android.hardware.telephony" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM"/>
+    <uses-permission android:name="android.permission.USE_EXACT_ALARM"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <application android:allowBackup="true" android:dataExtractionRules="@xml/data_extraction_rules" android:fullBackupContent="@xml/backup_rules" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/Theme.MENTALL" android:usesCleartextTraffic="true" tools:targetApi="31">
+        <!--  SplashActivity como pantalla de inicio  -->
+        <activity android:name=".ui.splash.SplashActivity" android:exported="true" android:theme="@style/Theme.MENTALL.Splash" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <!--  LoginActivity  -->
+        <activity android:name=".ui.contacts.EmergencyContactsActivity" />
+
+
+        <activity android:name=".ui.auth.LoginActivity" android:exported="false" android:theme="@style/Theme.MENTALL"/>
+        <!--  RegisterActivity  -->
+        <activity android:name=".ui.auth.RegisterActivity" android:exported="false" android:theme="@style/Theme.MENTALL"/>
+        <!--  MainActivity (con fragments)  -->
+        <activity android:name=".MainActivity" android:exported="false" android:theme="@style/Theme.MENTALL"/>
+        <!--  Receiver para alarmas de llamadas programadas  -->
+        <receiver android:name=".utils.CallAlarmReceiver" android:enabled="true" android:exported="false"/>
+    </application>
+</manifest>
